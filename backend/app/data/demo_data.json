@@ -1,0 +1,23 @@
+{
+  "_note": "SIMULATED DEMO DATA ONLY. These are not real companies, registrations or keys. Replace with the CIPC API and the Department of Employment and Labour agency data once access is approved.",
+  "employers": [
+    {
+      "id": "emp_demo_1",
+      "name": "Demo Software (Pty) Ltd",
+      "registration_number": "DEMO-0001",
+      "status": "active",
+      "contact_email_domain": "demosoftware.example",
+      "api_key": "dev-key-demo-employer-1",
+      "source": "SIMULATED demo dataset"
+    },
+    {
+      "id": "emp_demo_2",
+      "name": "Sample Logistics (Pty) Ltd",
+      "registration_number": "DEMO-0002",
+      "status": "active",
+      "contact_email_domain": "samplelogistics.example",
+      "api_key": "dev-key-demo-employer-2",
+      "source": "SIMULATED demo dataset"
+    }
+  ]
+}

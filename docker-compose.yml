@@ -1,0 +1,7 @@
+services:
+  api:
+    build: ./backend
+    env_file: .env
+    ports: ["8000:8000"]
+  # web: run `npm run dev` in ./frontend during development.
+  # db: PostgreSQL is planned. Load db/schema.sql once the store is moved off memory.

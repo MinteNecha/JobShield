@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+
+\titleformat{\section}{\Large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\renewcommand{\arraystretch}{1.3}
+\setstretch{1.08}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small JobShield -- Our Story}
+\rhead{\small Team Nikolaos}
+\cfoot{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\tbl}[1]{\textbf{#1}}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{2.2cm}
+{\large\textsc{NEMISA Digital Innovation Discothon 2026}}\\[0.5cm]
+\rule{\textwidth}{0.8pt}\\[1.2cm]
+{\fontsize{34}{40}\selectfont\bfseries JobShield}\\[0.5cm]
+{\Large Apply with proof}\\[1.4cm]
+{\fontsize{20}{24}\selectfont\bfseries Creative Campaign Story}\\[0.4cm]
+{\large Who we are, the problem we lived, the solution we built and the impact it can have}\\[1.2cm]
+\rule{\textwidth}{0.8pt}\\[2.0cm]
+{\large\textbf{Team Nikolaos}}\\[0.5cm]
+{\large Amar Mustafa\\[2pt] Mintesinot Necha\\[2pt] Keamogetse Maremela}\\[2.2cm]
+{\normalsize 15 November 2026\\[2pt] Version 1.0}
+\vfill
+{\small Submitted through the Sonke platform}
+\end{titlepage}
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Why we are telling this story}
+Every year, thousands of young South Africans finish their studies and start applying for jobs. Many of them do it at night, on their phones, hoping the next message is the one that changes their life. Scammers know this, and they wait for exactly that moment.
+
+We are three young South Africans who have been in that position. This is the story of how we turned that experience into JobShield, a way to \textbf{apply with proof}.
+
+\section{Who we are}
+We are Team Nikolaos. We have all worked, and we are all looking for jobs ourselves. So when we talk about a job offer that looks too good, we know how it feels to want it to be true.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\tbl{Who} & \tbl{Role in JobShield} & \tbl{What we bring}\\
+\midrule
+Amar Mustafa & Frontend, backend and marketing & Has built software for clients, and has run Google Ads, Meta Ads and TikTok content. He builds what users see and leads how we share this story.\\
+Mintesinot Necha & Backend infrastructure and project overview & Experienced in gathering business requirements and discussing needs with clients, which is how we plan to work with employers and institutions.\\
+Keamogetse Maremela & Artificial intelligence, data and finance & Has worked with data at UJ and has quantitative and finance experience. She leads the AI behind our risk ratings and helps us test our business numbers.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+We work together on everything else: research, design decisions, testing and the pitch. We also want to learn from people who know more than we do, so we are looking for advisers in HR, recruitment and POPIA law.
+
+\section{The story of Thandi}
+Thandi is a fictional character. Her story is built from scam patterns that are common in South Africa, and we chose her to be a UJ computer science graduate so that the story feels close to home.
+
+It is 23:40. Thandi has sent more than fifty applications and heard back from almost no one. Her phone buzzes. A WhatsApp message says she has been shortlisted for a junior developer job paying R22,000 a month. She screams with joy and calls her mother.
+
+Then the message asks for an R250 ``onboarding fee'' and a copy of her ID. The company name is real, and the logo looks right. Nothing about it looks fake, and that is the problem: scammers copy real company names, so a job that \emph{looks} legitimate proves nothing.
+
+Thandi's friend Sipho, a data science student, looks at the message and asks one question: ``Where is the proof?''
+
+\section{The problem behind the story}
+Thandi is not unusual. The numbers show why the offer felt so urgent, and why scammers find it so easy.
+
+\begin{itemize}
+  \item \textbf{47.4\%} of South Africans aged 15 to 34 were unemployed in the second quarter of 2026 \cite{qlfs}. The official rate for all ages was 33.7\% in the third quarter.
+  \item Impersonation fraud victims rose by \textbf{54\%} in 2024 compared with 2023 \cite{safps}.
+  \item Fake job offers are the most common lure used by human traffickers in South Africa \cite{nfn}, so the cost is not only money. It can be a person's safety.
+\end{itemize}
+
+Who suffers? Job seekers lose money, identity documents and trust. Parents worry about children who travel for a ``job'' that does not exist. Honest employers and recruiters see their names used by criminals. Today, a young person has to guess.
+
+\section{Our answer: JobShield}
+JobShield checks three things before you apply, and shows the evidence behind each one.
+
+\begin{enumerate}
+  \item \textbf{Is the employer real?} We match the company to official company records.
+  \item \textbf{Is the recruiter allowed?} The employer invites the recruiter, so we can confirm that this person may recruit for this company.
+  \item \textbf{Is the vacancy approved?} The employer approves the exact vacancy and the official application link.
+\end{enumerate}
+
+When all three checks pass, the employer gets a \textbf{Verified Vacancy Passport}: a signed QR code or link with an expiry date that the employer can cancel at any time. Anyone can scan it and see who is behind the job.
+
+\subsection{What this means for the people who use it}
+\begin{itemize}
+  \item \textbf{Check-a-Job on WhatsApp.} A job seeker forwards a message, link or phone number and gets back a rating (Verified, Unverified or High risk) with the reasons, in about 30 seconds. There is no app to install, it works on low data and it is free.
+  \item \textbf{SCAMTRACE.} When people report a scam, we link reports that share a phone number, bank account, website or message template, so one scam ring becomes visible instead of a hundred separate stories.
+  \item \textbf{Data Shield.} We tell the user what is safe to share and when: CV first, ID only after a written offer. We keep no copies of ID documents by default.
+  \item \textbf{Trafficking alert.} Overseas offers get a strong warning and links to official help.
+  \item \textbf{Employer dashboard.} Employers approve their vacancies, invite recruiters and spot fake adverts that use their name.
+\end{itemize}
+
+\subsection{Thandi's story, with JobShield}
+Sipho tells Thandi to forward the message to JobShield. Thirty seconds later the screen says \textbf{High risk}, with three reasons: it asks for payment, the sender's number is linked to earlier scam reports, and the company record does not match.
+
+The next morning Thandi finds a real developer vacancy with a Verified Vacancy Passport QR code. She scans it and sees the employer, the recruiter and the vacancy confirmed, with an expiry date. She sends her CV only. ID comes later, after the offer. An interview invitation arrives.
+
+\begin{center}
+\fbox{\parbox{0.9\textwidth}{\centering\large\textbf{Real jobs never charge you. Apply with proof.}\\[2pt]\normalsize\#NoProofNoApply}}
+\end{center}
+
+The rule is true: the Employment Services Act bans charging work seekers a fee \cite{esa}. We want it to become a habit that young people share with each other.
+
+\section{Why JobShield is different}
+Good tools already exist. YIMA raises scam awareness, the Department of Employment and Labour registers employment agencies, work.net.za collects vacancies and PNet warns about fraud. None of them proves that \emph{this} vacancy is approved by \emph{this} employer through \emph{this} recruiter.
+
+JobShield is a proof layer, not another job board. We connect records that already exist and add three new things: employer-signed recruiter authority, a signed and revocable passport, and a graph that links scam reports. Our initial search on 15 November 2026 found no South African service that combines all three checks. We are not claiming that this is new worldwide.
+
+Our risk ratings are explainable. Clear rules decide, light machine learning finds new patterns, and AI only writes the explanation. If an official source is unavailable we say \emph{could not verify}, never \emph{verified}. We promise evidence-backed verification and risk assessment, never a guarantee that a job is genuine.
+
+\section{The impact we are aiming for}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.4cm}X@{}}
+\toprule
+\tbl{Who} & \tbl{How JobShield helps}\\
+\midrule
+Young job seekers & Check a job in 30 seconds, avoid fees and ID theft, and apply with confidence\\
+Parents and guardians & Warnings and official help links for overseas and ``too good'' offers\\
+Honest employers and recruiters & A Verified badge that stops criminals from using their name\\
+Universities and TVET colleges & Protect graduates and build trust in the job market\\
+Banks, telcos and sponsors & Fewer scam victims and shared scam intelligence\\
+Society & A more trusted digital job market, which helps more young people reach real work\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{How we will measure success}
+These are our targets, not results.
+\begin{itemize}
+  \item \textbf{Week 6:} 50,000 people reached, 1,000 job checks and 50 employers on the waiting list.
+  \item \textbf{Month 3:} 500 UJ students and graduates signed up, 2,000 checks and 10 pilot employers.
+  \item \textbf{Month 6:} 2,000 job seekers, 7,000 checks, 10 paying employers and 1 institution.
+  \item \textbf{Month 12:} 5,000 job seekers, 20,000 checks, 40 paying employers and 3 institutions.
+\end{itemize}
+In the pilot we also aim to flag at least 90\% of known scam samples with no more than 5\% false alarms.
+
+\subsection{How it pays for itself}
+Job seekers never pay. Employers, institutions and, later, partners pay for the trust. Our estimated prices are R499 a month for small employers, R1,999 a month for agencies and large employers, R15,000 a year for universities and TVET colleges, and, from year two, R7,500 a month for partners who want scam intelligence. Our estimate for month 12 is about R31,210 a month against running costs of about R18,500 a month, so we break even at about R18,720 a month. All prices, costs and targets are our estimates, and we plan to test them with interviews and a pilot.
+
+\section{Keeping people safe}
+A trust service must itself be trustworthy. We build security in from the start with a secure development lifecycle, threat modelling and testing, and we design for the Protection of Personal Information Act \cite{popia}. We collect the minimum data, encrypt it, store scam identifiers only as keyed hashes, and give employers the power to revoke a passport instantly.
+
+\section{Where we are and what comes next}
+We are honest about where we are. JobShield is at design and prototype stage. Our prototype uses a labelled demo dataset, because access to official company and agency data needs approval, and our interviews with job seekers, recruiters and HR staff are still planned.
+
+\begin{enumerate}
+  \item \textbf{Talk to people.} Interview 10 to 15 job seekers, recruiters and HR staff to test our assumptions.
+  \item \textbf{Pilot at UJ.} Launch Check-a-Job and Verified Vacancy Passports with UJ students and about 10 employers.
+  \item \textbf{Sign the first paying employers} and grow to TVET colleges.
+\end{enumerate}
+
+\textbf{How you can help.} We are looking for pilot partners (such as university career services and employers), access to official data (a CIPC API sandbox and Department of Employment and Labour agency data), and sponsors and mentors who can support the pilot and advise us on HR, recruitment and POPIA law.
+
+\section{Our promise}
+Thandi's story ended well because someone asked for proof. We want every young South African to have that someone in their pocket. \textbf{Real jobs never charge you. Apply with proof.}
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+\begin{thebibliography}{9}
+\setlength{\itemsep}{6pt}
+\bibitem{qlfs} Statistics South Africa. \emph{Quarterly Labour Force Survey}, second and third quarters of 2026. Pretoria: Statistics South Africa.
+\bibitem{safps} Southern African Fraud Prevention Service (SAFPS). \emph{Annual Fraud Statistics for 2024}, as reported by Daily Investor.
+\bibitem{nfn} National Freedom Network. Reporting on job-offer lures used in human trafficking in South Africa, as reported by eNCA.
+\bibitem{esa} Republic of South Africa. \emph{Employment Services Act 4 of 2014}. Pretoria: Government Gazette.
+\bibitem{popia} Republic of South Africa. \emph{Protection of Personal Information Act 4 of 2013}. Pretoria: Government Gazette.
+\end{thebibliography}
+\end{document}
